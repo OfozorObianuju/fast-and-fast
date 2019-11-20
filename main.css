@@ -84,8 +84,31 @@ nav ul a:hover{
          color: #f5f3f5;
      }
 
-     .banner-icons{
+     .banner-icons a {
          padding: 20px;
      }
 
- 
+
+     .banner-icons a{
+         padding: 20px;
+     }
+     .banner-icons a{
+         display: inline-block;
+         font-size: 30px;
+         background-color: #ad3;
+         padding: 5px 10px;
+         margin: 0 10px;
+         border-radius: 60px;
+         color: #f5f3f5;
+         transition: color ls ease, transform ls ease;
+     }
+     .banner-icons a:hover {
+       color:#ad343e;
+       transform: translatey(-10px)
+     }
+
+     nav {
+         position: fixed;
+         width: 100%;
+         z-index: 10;
+     }
