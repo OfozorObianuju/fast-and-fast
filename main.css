@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+
+nav ul {
+    list-style-type: none;
+    display: none;
+}
+
+nav ul a{
+    display: block;
+    background: #0d1317;
+    padding: 20px;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ad343e;
+    transition: color 2s ease, background 2s ease, padding 2s ease;
+}
+
+nav ul a:hover{
+    background: #474747;
+    color: #e0e0ce;
+    padding-left: 30px;
+}
+
+.nav-container img{
+    width: 100px;
+    align-self: center;
+}
+
+ .nav-container{
+     padding: 0 20px;
+     background: #474747;
+     border-bottom: 3px solid #ad343e;
+     display: flex;
+     justify-content: space-between;
+ }
+
+
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 7px;
+    background: #ad3;
+}
+ .btn{
+     padding: 2px;
+     display: inline-block;
+     border: 2px solid #ad3;
+     align-self: center;
+ }
+
+ header{
+     min-height: 100px;
+     background:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url(./imges/star.jpg)center/cover fixed no-repeat;
+     display: flex;
+     flex-direction: column;
+ }
+
+ nav{
+     flex:0 0 auto; 
+ }
+
+ .banner{
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ .banner h1{
+     font-size: 50px;
+     text-transform: uppercase;
+     color: #ad343e}
+     .and{
+         color: #f5f3f5;
+     }
+
+     .banner-icons{
+         padding: 20px;
+     }
+
+ 
