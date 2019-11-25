@@ -48,18 +48,18 @@ nav ul a:hover{
     width: 30px;
     height: 3px;
     margin: 7px;
-    background: #ad3;
+    background: rgb(4, 129, 46);
 }
  .btn{
      padding: 2px;
      display: inline-block;
-     border: 2px solid #ad3;
+     border: 2px solid rgb(13, 143, 24);
      align-self: center;
  }
 
  header{
      min-height: 100px;
-     background:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url(./imges/star.jpg)center/cover fixed no-repeat;
+     background:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url("./imges/shine.jpg")center/cover fixed no-repeat;
      display: flex;
      flex-direction: column;
  }
@@ -95,7 +95,7 @@ nav ul a:hover{
      .banner-icons a{
          display: inline-block;
          font-size: 30px;
-         background-color: #ad3;
+         background-color: rgb(1, 10, 4);
          padding: 5px 10px;
          margin: 0 10px;
          border-radius: 60px;
@@ -134,7 +134,7 @@ nav ul a:hover{
      /*#############services##########*/
      .services{
          min-height: 80vh;
-         background: url("./imges/H\ H.jpg")center/cover
+         background: url("./imges/cloud.jpg")center/cover
          fixed no-repeat;
          display: flex;
          align-items: center;
