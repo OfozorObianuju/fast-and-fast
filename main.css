@@ -247,4 +247,152 @@ nav ul a:hover{
             grid-template-columns:repeat(3,1fr);
         }
     }
+    /*###############about#####################*/
+
+    .about{
+        min-height: 60vh;
+        padding: 60px 0;
+        background: url(./imges/color.jpg)center/cover
+        fixed no-repeat;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
     
+    .about-card{
+        background: rgb(255,255,255,0.6);
+        text-align: center;
+        padding: 60px;
+    }
+
+    .about-card h3{
+        font-size: 40px;
+        text-transform: capitalize
+    }
+
+    .about-card .fa-car{
+        font-size: 60px;
+        color: orangered;
+        margin: 20px 0;
+    }
+
+    .about-card p{
+        line-height: 2;
+    }
+
+    @media screen and (min-width:776px) {
+        .about-card {
+            max-width: 50%;
+            border-radius: 30px;
+        }
+        .about-card p{
+            max-width: 70%;
+            margin: 0 auto;
+        }
+    }
+    /*##############filler##################*/
+    .filler{
+        min-height: 60vh;
+        background: url("./imges/rover\ 2.jpg")center/cover
+        fixed no-repeat;
+    }
+    /*################contact###############*/
+    .contact{
+        min-height: 60vh;
+        background: url("./imges/color.jpg")center/cover
+        fixed no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-card{
+        flex: 0 0 88%;
+        padding: 40px 0;
+        background: rgba(0,0,0,0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        flex: 0 0 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form input{
+        margin: 10px 0;
+    }
+     
+    form h3{
+        text-align: center;
+        text-transform: uppercase;
+        color: orangered
+    }
+
+    form input,
+    form textarea{
+        padding: 5px;
+        border: 3px solid orange;
+        color: #0d1317;
+    }
+     
+    input::placeholder,
+    textarea::placeholder{
+        text-transform: uppercase;
+    }
+
+    .form-btn{
+        margin: 20px;
+        border-radius: 40px;
+        padding: 5px;
+        background: orangered;
+        transition: color 1s ease-in-out, background 1s
+         ease-in-out
+    }
+
+    .form-btn:hover{
+        color: orangered;
+        background: #e0e0ce;
+    }
+
+    /*##################footer###########*/
+
+    .footer{
+        background: #0d1317;
+        padding: 60px 0;
+        text-align:center; 
+    }
+
+    .footer-icons a{
+        padding: 20px;
+    }
+    .footer-icons a{
+        display: inline-block;
+        font-size: 30px;
+        background-color: rgb(1, 10, 4);
+        padding: 5px 10px;
+        margin: 0 10px;
+        border-radius: 60px;
+        color: #f5f3f5;
+        transition: color ls ease, transform ls ease;
+    }
+    .footer-icons a:hover {
+      color:#ad343e;
+      transform: translatey(-10px)
+    }
+
+
+    /* .footer-icons a{
+        display: inline-block;
+        font-size: 30px;
+        margin: 0 10px 20px 10px;
+        padding: 2px 5px;
+        border-radius: 5px;
+        background: #f5f3f5;
+        color:#0d1317;
+    } */
+
+    .footer p{
+        color:#f5f3f5;
+        font-size: 20px;
+    }
